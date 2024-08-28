@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Portfólio</title>
+    <style>
+        body{
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        .container {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+        }
+        #header{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 42px;
+            text-decoration-line: underline;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            color: black;
+        }
+        #menu ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        #menu li{
+            display: inline-block;
+            margin-left: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: black;
+        }
+        #menu{
+            text-align: right;
+            margin-top: 49px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        #buttonCTA {
+            background: #1f7cff;
+            border-radius: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: white;
+            padding: 10px 25px 10px 25px;
+        }
+        #headerCTA{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: left;
+            color: #575455;
+
+        }
+        #headerCTA h1{
+            font-family: Poppins;
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 60px;
+            text-align: left;
+            color: black;
+
+        }
+        #headerImg {
+            margin-left: 42px;
+        }
+        #headerImg img{
+            width: 100%;
+        }
+        .headerlogo{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+     <div class="container">
+        <div id="header">
+                    Portfólio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#servicos">Meus Serviços</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#portifolio">Portfólio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCTA">
+        <h1>
+            Olá, meu nome <br>
+            é Maria.
+        </h1>
+        <p>Sou programadora e gostaria de apresentar meu <br>
+            trabalho para você através deste portfólio.
+        </p>
+        <a id="buttonCTA" href="#servicos">Meus Serviços</a>
+    </div>
+        <div id="headerImg">
+            <img src="Img/header.svg">
+        </div>
+    </div>
+</body>
+</html>
